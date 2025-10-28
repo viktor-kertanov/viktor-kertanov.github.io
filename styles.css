@@ -1,0 +1,16 @@
+/* Ultra-minimal shared styles */
+:root{--max:720px}
+html{box-sizing:border-box;font:17px/1.5 -apple-system,BlinkMacSystemFont,Inter,"Helvetica Neue",Arial,sans-serif;color:#000;background:#fff}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0}
+header,footer{border-bottom:1px solid #e6e6e6}
+footer{border-top:1px solid #e6e6e6;border-bottom:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:24px}
+h1{font-size:20px;margin:0 0 12px;font-weight:600}
+h2{font-size:18px;margin:0 0 12px;font-weight:600}
+p{margin:0 0 14px}
+nav{display:flex;flex-wrap:wrap;gap:14px}
+nav a{color:#000;text-decoration:none}
+nav a:hover{text-decoration:underline}
+.main{min-height:60vh}
+.small{color:#555;font-size:14px}
